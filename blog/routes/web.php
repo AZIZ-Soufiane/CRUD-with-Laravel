@@ -13,3 +13,4 @@ Route::get('/a-propos', [PageController::class, 'about'])->name('about');
 // Mini-routes articles (mockées pour l’instant)
 Route::get('/articles', [PageController::class, 'articles'])->name('articles.index');
 Route::get('/articles/{slug}', [PageController::class, 'show'])->name('articles.show');
+Route::get('contact', [Pagecontroller::class, 'contact'])->name('contact');

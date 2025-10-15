@@ -39,5 +39,11 @@ class PageController extends Controller
             'article' => $article,
         ]);
     }
-}
 
+    public function contact(): \Illuminate\View\View
+    {
+    return view('contact', [
+        'title' => 'Contactez-nous',
+    ]);
+    }
+}
