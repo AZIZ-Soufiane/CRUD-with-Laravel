@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>{{ $title ?? 'Blog' }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
   <main style="max-width:760px;margin:2rem auto;padding:1rem;">
